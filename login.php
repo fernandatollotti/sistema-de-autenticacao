@@ -28,6 +28,12 @@
 
           <div class="message">
             <p>
+            <?php
+              session_start();
+              if(isset($_SESSION['message']))
+                echo $_SESSION['message'];
+                unset($_SESSION['message']);
+             ?>
             </p>
           </div>
           <input class="btn btn-submit" type="submit" name="login" value="Login">
