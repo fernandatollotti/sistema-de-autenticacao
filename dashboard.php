@@ -14,7 +14,7 @@
       <div class="center">
         <div class="form">
           <p>Hey, <?php $_SESSION['user']; ?></p>
-          <p>You are now user dashoard.</p>
+          <p>You are now user dashboard.</p>
           <p><a href="src/logout.php">Logout</a></p>
         </div>
       </div>
